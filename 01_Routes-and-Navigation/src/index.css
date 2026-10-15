@@ -1,0 +1,10 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f8fafc; color: #1e293b; padding: 1.5rem; }
+h1 { font-size: 1.75rem; margin-bottom: 0.75rem; }
+p  { line-height: 1.6; }
+nav {
+  display: flex; gap: 1.25rem; padding: 0.75rem 1.25rem;
+  background: #1e293b; border-radius: 10px; margin-bottom: 2rem;
+}
+nav a { color: #94a3b8; text-decoration: none; font-weight: 500; }
+nav a:hover, nav a.active { color: #f1f5f9; text-decoration: underline; }
